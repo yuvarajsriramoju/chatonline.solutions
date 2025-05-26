@@ -15,7 +15,7 @@ HEADERS = {
 
 @app.route("/")
 def index():
-    return render_template("index.html", project_name="ChatOnline Solutions")
+    return render_template("index.html", project_name="ChatOnline.Solutions")
 
 @app.route("/api/ask", methods=["POST"])
 def ask():
